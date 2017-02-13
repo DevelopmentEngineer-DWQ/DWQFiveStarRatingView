@@ -77,11 +77,11 @@
     label3.text=@"如果您感觉不错，请在GitHub给予点赞，更有更多不错的开源项目  https://github.com/DevelopmentEngineer-DWQ";
    //链式调用方法示例
   /*
-   [GQRatingView的init ]
+   [DWQRatingView init ]
    .frameChain（CGPointMake（50，100），50）
    .canTouchChain（YES）
    .needIntValueChain（YES）
-   .scoreNumChain（@ 5）
+   .scoreNumChain（@ 4）
    .scroreBlockChain（^（NSNumber * scoreNumber）{
    NSLog（@“ ％@ ”，scoreNumber）;
    }）。superViewChain（self.view）;

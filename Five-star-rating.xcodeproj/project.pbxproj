@@ -17,6 +17,7 @@
 		047452B91E514E0F00403002 /* Five_star_ratingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452B81E514E0F00403002 /* Five_star_ratingUITests.m */; };
 		047452C91E514EB200403002 /* DWQRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452C81E514EB200403002 /* DWQRatingView.m */; };
 		047452CC1E514EC900403002 /* DWQStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047452CB1E514EC900403002 /* DWQStarView.m */; };
+		047452CE1E5177BD00403002 /* duwenquanLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047452CD1E5177BD00403002 /* duwenquanLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		047452C81E514EB200403002 /* DWQRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQRatingView.m; sourceTree = "<group>"; };
 		047452CA1E514EC900403002 /* DWQStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQStarView.h; sourceTree = "<group>"; };
 		047452CB1E514EC900403002 /* DWQStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQStarView.m; sourceTree = "<group>"; };
+		047452CD1E5177BD00403002 /* duwenquanLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duwenquanLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		047452C61E514E7500403002 /* DWQFivestarRating */ = {
 			isa = PBXGroup;
 			children = (
+				047452CD1E5177BD00403002 /* duwenquanLogo.png */,
 				047452C71E514EB200403002 /* DWQRatingView.h */,
 				047452C81E514EB200403002 /* DWQRatingView.m */,
 				047452CA1E514EC900403002 /* DWQStarView.h */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047452A31E514E0F00403002 /* LaunchScreen.storyboard in Resources */,
+				047452CE1E5177BD00403002 /* duwenquanLogo.png in Resources */,
 				047452A01E514E0F00403002 /* Assets.xcassets in Resources */,
 				0474529E1E514E0F00403002 /* Main.storyboard in Resources */,
 			);
@@ -534,6 +538,7 @@
 				047452BF1E514E0F00403002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047452C01E514E0F00403002 /* Build configuration list for PBXNativeTarget "Five-star-ratingTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +547,7 @@
 				047452C21E514E0F00403002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047452C31E514E0F00403002 /* Build configuration list for PBXNativeTarget "Five-star-ratingUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +556,7 @@
 				047452C51E514E0F00403002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
